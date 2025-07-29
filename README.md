@@ -70,19 +70,19 @@ A React-based URL shortener application that allows users to:
 📂 Project Structure
 ```text```
 ```src/```
-      ```├── components/```
-         ```│   ├── UrlForm.jsx        # URL input form```
-         ```│   ├── UrlList.jsx        # List of shortened URLs```
-         ```│   ├── UrlStats.jsx       # Statistics display```
-         ```│   └── Navbar.jsx         # Navigation header```
-    ```├── pages/```
-    ```│   ├── ShortenerPage.jsx  # Main shortening page```
-    ```│   └── StatsPage.jsx      # Statistics page```        
-    ```├── utils/```
-       ```│   ├── logger.js          # Custom logging
-       ```│   └── validation.js      # Validation helpers
-    ```├── App.jsx                # Main app component
-    ```└── main.jsx             # Entry point
+      ```├── components/
+         │   ├── UrlForm.jsx        # URL input form
+         │   ├── UrlList.jsx        # List of shortened URLs
+         │   ├── UrlStats.jsx       # Statistics display
+         │   └── Navbar.jsx         # Navigation header```
+    ```├── pages/
+       │   ├── ShortenerPage.jsx  # Main shortening page
+       │   └── StatsPage.jsx      # Statistics page```        
+    ```├── utils/
+          │   ├── logger.js          # Custom logging
+          │   └── validation.js      # Validation helpers```
+    ```├── App.jsx                # Main app component```
+    ```└── main.jsx             # Entry point```
 🔄 Workflow
 1. URL Shortening Flow
 User enters:
