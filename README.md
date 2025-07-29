@@ -77,12 +77,12 @@ A React-based URL shortener application that allows users to:
          ```│   └── Navbar.jsx         # Navigation header```
     ```├── pages/```
     ```│   ├── ShortenerPage.jsx  # Main shortening page```
-    ```│   └── StatsPage.jsx      # Statistics page```
+    ```│   └── StatsPage.jsx      # Statistics page```        
     ```├── utils/```
-       ```│   ├── logger.js          # Custom logging```
-       ```│   └── validation.js      # Validation helpers```
-    ```├── App.jsx                # Main app component```
-    ```└── main.jsx             # Entry point```
+       ```│   ├── logger.js          # Custom logging
+       ```│   └── validation.js      # Validation helpers
+    ```├── App.jsx                # Main app component
+    ```└── main.jsx             # Entry point
 🔄 Workflow
 1. URL Shortening Flow
 User enters:
