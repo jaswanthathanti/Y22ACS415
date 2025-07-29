@@ -5,84 +5,84 @@ A React-based URL shortener application that allows users to:
 
 * Create shortened URLs with optional custom codes
 
-*Set expiration times (default: 30 minutes)
+* Set expiration times (default: 30 minutes)
 
-*Track click statistics
+* Track click statistics
 
-*Activate/deactivate shortened URLs
+* Activate/deactivate shortened URLs
 
-*View detailed analytics
+* View detailed analytics
 
 ✨ Features
-*URL Shortening:
+* URL Shortening:
 
-  *Convert long URLs to short, memorable links
+  * Convert long URLs to short, memorable links
 
-  *Custom short code option
+  * Custom short code option
 
-  *Configurable expiration time
+  * Configurable expiration time
 
-*Link Management:
+* Link Management:
 
-  *Toggle links between active/inactive states
+  * Toggle links between active/inactive states
 
-  *Automatic expiration handling
+  * Automatic expiration handling
 
-  *Local storage persistence
+  * Local storage persistence
 
-*Analytics:
+* Analytics:
 
-  *Click tracking with timestamps
+  * Click tracking with timestamps
 
-  *Visual status indicators
+  * Visual status indicators
 
-  *Detailed statistics view
+  * Detailed statistics view
 
-  *User Experience:
+  * User Experience:
 
-  *Clean, responsive Material UI design
+  * Clean, responsive Material UI design
 
-  *Client-side routing
+  * Client-side routing
 
-  *Helpful error messages
+  * Helpful error messages
 
 🛠️ Technology Stack
-*Frontend:
+* Frontend:
 
-  *React (Vite)
+  * React (Vite)
 
-  *Material UI
+  * Material UI
 
-  *React Router
+  * React Router
 
-*State Management:
+* State Management:
 
-  *React Hooks (useState, useEffect)
+  * React Hooks (useState, useEffect)
 
-  *LocalStorage for persistence
+  * LocalStorage for persistence
 
-*Build Tools:
+* Build Tools:
 
-  *Vite
+  * Vite
 
-  *npm
+  * npm
 
 📂 Project Structure
-text
-src/
-├── components/
-│   ├── UrlForm.jsx        # URL input form
-│   ├── UrlList.jsx        # List of shortened URLs
-│   ├── UrlStats.jsx       # Statistics display
-│   └── Navbar.jsx         # Navigation header
-├── pages/
-│   ├── ShortenerPage.jsx  # Main shortening page
-│   └── StatsPage.jsx      # Statistics page
-├── utils/
-│   ├── logger.js          # Custom logging
-│   └── validation.js      # Validation helpers
-├── App.jsx                # Main app component
-└── main.jsx               # Entry point
+```text```
+```src/```
+      ```├── components/```
+         ```│   ├── UrlForm.jsx        # URL input form```
+         ```│   ├── UrlList.jsx        # List of shortened URLs```
+         ```│   ├── UrlStats.jsx       # Statistics display```
+         ```│   └── Navbar.jsx         # Navigation header```
+    ```├── pages/```
+    ```│   ├── ShortenerPage.jsx  # Main shortening page```
+    ```│   └── StatsPage.jsx      # Statistics page```
+    ```├── utils/```
+       ```│   ├── logger.js          # Custom logging```
+       ```│   └── validation.js      # Validation helpers```
+    ```├── App.jsx                # Main app component```
+    ```└── main.jsx             # Entry point```
 🔄 Workflow
 1. URL Shortening Flow
 User enters:
