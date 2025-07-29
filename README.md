@@ -3,7 +3,7 @@
 📝 Overview
 A React-based URL shortener application that allows users to:
 
-** Create shortened URLs with optional custom codes
+** Create shortened URLs with optional custom codes**
 
 ** Set expiration times (default: 30 minutes)
 
